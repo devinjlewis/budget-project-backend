@@ -1,0 +1,86 @@
+const { v4: uuidv4 } = require("uuid");
+
+const transactionsModel = [
+    {
+        id: uuidv4(),
+        item_name: "Income",
+        amount: 1000,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Taxes",
+        amount: -300,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Retirement",
+        amount: -200,
+        date: "April 1",
+        from: "bank",
+        category: "savings",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Savings",
+        amount: -100,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Credit Card Payment",
+        amount: -100,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Monthly Birthday Money From Aunt Tilda",
+        amount: 20,
+        date: "April 5",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Coffee",
+        amount: -4,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Internet",
+        amount: -300,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Groceries",
+        amount: -300,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+    {
+        id: uuidv4(),
+        item_name: "Pet Food",
+        amount: -300,
+        date: "April 1",
+        from: "employer",
+        category: "income",
+    },
+];
+
+module.exports = transactionsModel;
